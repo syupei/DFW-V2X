@@ -1,0 +1,10 @@
+# Data sources and attribution
+
+This is a test-only distribution. Data retain the upstream terms below; no commercial reuse permission is granted by making this repository public.
+
+- Administrative outlines behind the 3D map: DataV.GeoAtlas areas_v3, fetched from https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json. The DataV GeoAtlas source page at https://datav.aliyun.com/portal/school/atlas/atlas_aigc attributes the data to Amap Open Platform, identifies the version as updated 2021-05, and says only for study and exchange (仅供学习交流使用). This game alters the presentation and simplifies/combines the supplied outline. This release is for play testing and study only; it does not assert wider redistribution or commercial rights for that boundary data.
+- City coordinates: the project data records GeoNames (CC BY 4.0), CC0, OpenStreetMap (ODbL 1.0; © OpenStreetMap contributors), and Taiwan Government Open Data License v1.0 sources. Coordinate records are transformed into a reduced runtime dataset for this package. References: https://www.geonames.org/export/ ; https://www.openstreetmap.org/copyright ; https://data.gov.tw/license .
+- Scenic-point coordinates: sourced from Wikidata structured data (CC0), OpenStreetMap (ODbL 1.0), GeoNames (CC BY 4.0), and other coordinate facts identified by project sources. Selected coordinates are converted for map rendering; source photographs are not redistributed.
+- Three-dimensional map, 84 scenic illustrations, avatars, interface art and audio: included as project assets for this test release. Some illustrations/audio are generated or synthesized; they are not claims of photographic or live-performance accuracy. No general reuse license is granted here.
+
+When using OpenStreetMap-derived database material, provide attribution to © OpenStreetMap contributors and follow ODbL 1.0 conditions that apply: https://opendatacommons.org/licenses/odbl/1-0/ . The source data have been reduced to runtime fields; internal review history and source-file system paths are omitted.
