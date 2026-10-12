@@ -4,7 +4,15 @@
 
 ## 下载与运行
 
-前往 [Releases](https://github.com/syupei/DFW-V2X/releases/latest) 下载发行包 `DFW-V2X-2026-10-12.zip`，先按同页的 `.sha256` 文件核对下载完整性，再解压并在解压目录运行：
+前往 [Releases](https://github.com/syupei/DFW-V2X/releases/latest) 下载 4 个 `DFW-V2X-2026-10-12.zip.part-01` 至 `part-04` 分卷。把它们放在同一目录后合并并校验，再解压：
+
+```sh
+cat DFW-V2X-2026-10-12.zip.part-* > DFW-V2X-2026-10-12.zip
+shasum -a 256 -c DFW-V2X-2026-10-12.zip.sha256
+unzip DFW-V2X-2026-10-12.zip
+```
+
+
 
 ```sh
 npm ci
